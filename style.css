@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+background-color:rgba(22,10,25,255);
+}
+
+.navbar {
+background-color:rgba(22,10,25,255);
+height: 90px;
+display: flex;
+justify-content: space-evenly;
+font-weight: 600;
+font-size: 25px;
+padding-top: 30px;
+    }
+
+a {
+color: white;
+text-decoration: none;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+margin-right:35px;
+}
+
+a:hover {
+    color: rgba(227,73,29,255);
+    text-decoration: underline;
+   }
+
+.name {
+margin-right: 800px;
+font-size:70px;
+font-style: oblique;
+display: inline;  
+    }
+
+    name:hover {
+        color: rgba(227,73,29,255);
+       }
+
+.container {
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+color: white;
+height: 900px;
+   }
+
+img {
+border-radius: 50%;
+height: 900px;
+width: 700px;
+object-fit: cover;
+   }
+
+h1 {
+font-size: 80px;
+height: 170px;
+margin-top: 150px;
+margin-left: 200px; 
+   }
+
+   h1:hover {
+    color: rgba(227,73,29,255);
+   }
+
+p {
+font-size: 70px;
+height: 170px;
+position: relative;
+top: 250px;
+right:600px;
+   }
+
+   p:hover {
+    color: rgba(227,73,29,255);
+   }
+
+pre {
+height: 600px;
+position: relative;
+bottom: 510px;
+left: 450px;
+font-size: 40px;
+text-align: center;
+   }
+
+ button {
+    height: 60px;
+    width: 280px;
+    background-color: rgba(22,10,25,255);
+    color: white;
+    font-size: 40px;
+    position:relative;
+    bottom: 250px;
+    right: 600px;
+    border: 2px solid white;
+    border-radius: 12%;
+   }
+
+   
+   button:hover {
+    background-color: rgba(227,73,29,255);
+    color: rgba(22,10,25,255);
+   }
+ 
+   h3 {
+      text-align: center;
+   }
+
+.skills {
+   color: white;
+   font-size: 50px;
+   height: fit-content;
+   width: 2200px;
+  position: relative;
+  bottom: 400px;
+  
+}
+
+ul {
+   margin-left: 20px;
+}
+
+.new {
+   color: aliceblue;
+}
